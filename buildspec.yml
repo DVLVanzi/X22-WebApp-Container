@@ -6,3 +6,8 @@ phases:
       - echo Building the Docker image...          
       - docker build -t x22-webapp-container:latest .
 
+artifacts:
+  files:
+    - '**/*'
+  name: x22-webapp-container 
+
