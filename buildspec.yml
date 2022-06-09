@@ -2,7 +2,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Build started on `date`
+      - echo Build started 
       - echo Building the Docker image...          
       - docker build -t x22-webapp-container:latest .
 
